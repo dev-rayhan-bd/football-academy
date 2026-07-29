@@ -356,7 +356,7 @@ export const SuccessStory = () => {
                 <input 
                   type="file" 
                   accept={watch("mediaType") === "image" ? "image/*" : "video/*"}
-                  className="w-full text-sm text-gray-500 file:mr-4 file:file:py-2 file:px-4 file:rounded-xl file:border-0 file:text-xs file:font-black file:uppercase file:bg-white/5 file:text-white hover:file:bg-white/10 file:transition-all cursor-pointer"
+                  className="w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-xl file:border-0 file:text-xs file:font-black file:uppercase file:bg-white/5 file:text-white hover:file:bg-white/10 file:transition-all cursor-pointer"
                   onChange={handleFileChange}
                 />
               </div>
